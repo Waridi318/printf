@@ -7,7 +7,7 @@
   * Return: number of char printed
   */
 
-int sum_them_all(const unsigned int n, ...)
+int print_address(va_list l, flags_t *f)
 {
 	char *str;
 	unsigned long int p = va_arg(l, unsigned long int);
